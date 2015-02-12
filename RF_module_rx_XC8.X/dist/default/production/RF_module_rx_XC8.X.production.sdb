@@ -1,0 +1,971 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F8722 ]
+[d frameptr 4065 ]
+"234 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\MRF24J40c.c
+[e E6350 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"93 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\main.c
+[e E6350 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abtofl.c
+[v ___abtofl __abtofl `(d  1 e 3 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"36 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\altofl.c
+[v ___altofl __altofl `(d  1 e 3 0 ]
+"42 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\attofl.c
+[v ___attofl __attofl `(d  1 e 3 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c
+[v ___awtofl __awtofl `(d  1 e 3 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 3 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lltofl.c
+[v ___lltofl __lltofl `(d  1 e 3 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lttofl.c
+[v ___lttofl __lttofl `(d  1 e 3 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 3 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asfladd.c
+[v ___asfladd __asfladd `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asfldiv.c
+[v ___asfldiv __asfldiv `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asflmul.c
+[v ___asflmul __asflmul `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asflsub.c
+[v ___asflsub __asflsub `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asftadd.c
+[v ___asftadd __asftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asftdiv.c
+[v ___asftdiv __asftdiv `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asftmul.c
+[v ___asftmul __asftmul `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asftsub.c
+[v ___asftsub __asftsub `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\aslmul.c
+[v ___aslmul __aslmul `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 0 0 ]
+"14 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2open.c
+[v _OpenSPI2 OpenSPI2 `(v  1 e 0 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2read.c
+[v _ReadSPI2 ReadSPI2 `(uc  1 e 1 0 ]
+[v i2_ReadSPI2 ReadSPI2 `(uc  1 e 1 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2writ.c
+[v _WriteSPI2 WriteSPI2 `(c  1 e 1 0 ]
+[v i2_WriteSPI2 WriteSPI2 `(c  1 e 1 0 ]
+"6 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\hardware.c
+[v _BoardInit BoardInit `(v  1 e 0 0 ]
+"83 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"200
+[v _RadioInitP2P RadioInitP2P `(v  1 e 0 0 ]
+"32 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\MRF24J40c.c
+[v _readBytes readBytes `(*.39uc  1 e 2 0 ]
+"45
+[v _spiPut spiPut `(v  1 e 0 0 ]
+[v i2_spiPut spiPut `(v  1 e 0 0 ]
+"54
+[v _spiGet spiGet `(uc  1 e 1 0 ]
+"68
+[v _SpiTake SpiTake `(uc  1 e 1 0 ]
+[v i2_SpiTake SpiTake `(uc  1 e 1 0 ]
+"95
+[v _highRead highRead `(uc  1 e 1 0 ]
+[v i2_highRead highRead `(uc  1 e 1 0 ]
+"114
+[v _highWrite highWrite `(v  1 e 0 0 ]
+"137
+[v _lowRead lowRead `(uc  1 e 1 0 ]
+[v i2_lowRead lowRead `(uc  1 e 1 0 ]
+"153
+[v _lowWrite lowWrite `(v  1 e 0 0 ]
+[v i2_lowWrite lowWrite `(v  1 e 0 0 ]
+"167
+[v _toTXfifo toTXfifo `(uc  1 e 1 0 ]
+"178
+[v _initMRF24J40 initMRF24J40 `(uc  1 e 1 0 ]
+"258
+[v _RadioInit RadioInit `(E6350  1 e 1 0 ]
+"283
+[v _RadioSetAddress RadioSetAddress `(v  1 e 0 0 ]
+"306
+[v _RadioSetChannel RadioSetChannel `(E6350  1 e 1 0 ]
+"326
+[v _RadioSetSleep RadioSetSleep `(v  1 e 0 0 ]
+"356
+[v _RadioTXRaw RadioTXRaw `(v  1 e 0 0 ]
+"407
+[v _RadioTXPacket RadioTXPacket `(v  1 e 0 0 ]
+"443
+[v _RadioTXResult RadioTXResult `(uc  1 e 1 0 ]
+"452
+[v _RadioWaitTXResult RadioWaitTXResult `(uc  1 e 1 0 ]
+"493
+[v _RadioRXPacket RadioRXPacket `(uc  1 e 1 0 ]
+"582
+[v _RadioDiscardPacket RadioDiscardPacket `(v  1 e 0 0 ]
+"607
+[v _ISR ISR `II(v  1 e 0 0 ]
+"203 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f8722.h
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @3939 ]
+[s S1537 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"233
+[s S1543 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S1548 . 1 `uc 1 SSPM02 1 0 :1:0 
+`uc 1 SSPM12 1 0 :1:1 
+`uc 1 SSPM22 1 0 :1:2 
+`uc 1 SSPM32 1 0 :1:3 
+`uc 1 CKP2 1 0 :1:4 
+`uc 1 SSPEN2 1 0 :1:5 
+`uc 1 SSPOV2 1 0 :1:6 
+`uc 1 WCOL2 1 0 :1:7 
+]
+[u S1557 . 1 `S1537 1 . 1 0 `S1543 1 . 1 0 `S1548 1 . 1 0 ]
+[v _SSP2CON1bits SSP2CON1bits `VES1557  1 e 1 @3939 ]
+"322
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @3940 ]
+[s S150 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"474
+[s S153 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S156 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S171 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S176 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S182 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S187 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S190 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S193 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S198 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S203 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S208 . 1 `uc 1 BF2 1 0 :1:0 
+`uc 1 UA2 1 0 :1:1 
+`uc 1 RW2 1 0 :1:2 
+`uc 1 START2 1 0 :1:3 
+`uc 1 STOP2 1 0 :1:4 
+`uc 1 DA2 1 0 :1:5 
+`uc 1 CKE2 1 0 :1:6 
+`uc 1 SMP2 1 0 :1:7 
+]
+[s S217 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DATA_ADDRESS2 1 0 :1:5 
+]
+[s S220 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_A2 1 0 :1:5 
+]
+[s S223 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_nA2 1 0 :1:5 
+]
+[s S226 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 I2C_DAT2 1 0 :1:5 
+]
+[s S229 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ2 1 0 :1:2 
+]
+[s S232 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 I2C_START2 1 0 :1:3 
+]
+[s S235 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 I2C_STOP2 1 0 :1:4 
+]
+[s S238 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 P2 1 0 :1:4 
+]
+[s S241 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE2 1 0 :1:2 
+]
+[s S244 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W2 1 0 :1:2 
+]
+[s S247 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW2 1 0 :1:2 
+]
+[s S250 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 S2 1 0 :1:3 
+]
+[s S253 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S256 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 nADDRESS2 1 0 :1:5 
+]
+[s S259 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+]
+[s S262 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE2 1 0 :1:2 
+]
+[u S265 . 1 `S150 1 . 1 0 `S153 1 . 1 0 `S156 1 . 1 0 `S150 1 . 1 0 `S153 1 . 1 0 `S171 1 . 1 0 `S176 1 . 1 0 `S182 1 . 1 0 `S187 1 . 1 0 `S190 1 . 1 0 `S193 1 . 1 0 `S198 1 . 1 0 `S203 1 . 1 0 `S208 1 . 1 0 `S217 1 . 1 0 `S220 1 . 1 0 `S223 1 . 1 0 `S226 1 . 1 0 `S229 1 . 1 0 `S232 1 . 1 0 `S235 1 . 1 0 `S238 1 . 1 0 `S241 1 . 1 0 `S244 1 . 1 0 `S247 1 . 1 0 `S250 1 . 1 0 `S253 1 . 1 0 `S256 1 . 1 0 `S259 1 . 1 0 `S262 1 . 1 0 ]
+[v _SSP2STATbits SSP2STATbits `VES265  1 e 1 @3940 ]
+"810
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @3942 ]
+[s S1198 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2824
+[s S1293 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 INT3 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S1302 . 1 `uc 1 FLT0 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ECCP2 1 0 :1:3 
+]
+[s S1306 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2 1 0 :1:3 
+]
+[s S1309 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 P2A 1 0 :1:3 
+]
+[s S1312 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S1315 . 1 `S1198 1 . 1 0 `S1293 1 . 1 0 `S1302 1 . 1 0 `S1306 1 . 1 0 `S1309 1 . 1 0 `S1312 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1315  1 e 1 @3969 ]
+[s S783 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2998
+[s S842 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 ECCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S851 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 ECCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S860 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCL1 1 0 :1:3 
+`uc 1 SDA1 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK1 1 0 :1:6 
+`uc 1 DT1 1 0 :1:7 
+]
+[s S869 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 P2A 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 SCK1 1 0 :1:3 
+`uc 1 SDI1 1 0 :1:4 
+`uc 1 SDO1 1 0 :1:5 
+`uc 1 TX1 1 0 :1:6 
+`uc 1 RX1 1 0 :1:7 
+]
+[s S878 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S881 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S884 . 1 `S783 1 . 1 0 `S842 1 . 1 0 `S851 1 . 1 0 `S860 1 . 1 0 `S869 1 . 1 0 `S878 1 . 1 0 `S881 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES884  1 e 1 @3970 ]
+"4548
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"4680
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"4812
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"4944
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S66 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"4992
+[s S75 . 1 `uc 1 LD0 1 0 :1:0 
+]
+[s S77 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+]
+[s S80 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LD2 1 0 :1:2 
+]
+[s S83 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LD3 1 0 :1:3 
+]
+[s S86 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LD4 1 0 :1:4 
+]
+[s S89 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LD5 1 0 :1:5 
+]
+[s S92 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LD6 1 0 :1:6 
+]
+[s S95 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S98 . 1 `S66 1 . 1 0 `S75 1 . 1 0 `S77 1 . 1 0 `S80 1 . 1 0 `S83 1 . 1 0 `S86 1 . 1 0 `S89 1 . 1 0 `S92 1 . 1 0 `S95 1 . 1 0 ]
+[v _LATDbits LATDbits `VES98  1 e 1 @3980 ]
+"5076
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"5208
+[v _LATF LATF `VEuc  1 e 1 @3982 ]
+"5340
+[v _LATG LATG `VEuc  1 e 1 @3983 ]
+"5433
+[v _LATH LATH `VEuc  1 e 1 @3984 ]
+"5697
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"5918
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S774 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"5950
+[u S792 . 1 `S774 1 . 1 0 `S783 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES792  1 e 1 @3987 ]
+"6139
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"6171
+[v _TRISCbits TRISCbits `VES792  1 e 1 @3988 ]
+"6360
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"6392
+[v _TRISDbits TRISDbits `VES792  1 e 1 @3989 ]
+"6581
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"6802
+[v _TRISF TRISF `VEuc  1 e 1 @3991 ]
+"7023
+[v _TRISG TRISG `VEuc  1 e 1 @3992 ]
+"7172
+[v _TRISH TRISH `VEuc  1 e 1 @3993 ]
+[s S1614 . 1 `uc 1 CCP3IF 1 0 :1:0 
+`uc 1 CCP4IF 1 0 :1:1 
+`uc 1 CCP5IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+`uc 1 BCL2IF 1 0 :1:6 
+`uc 1 SSP2IF 1 0 :1:7 
+]
+"8345
+[s S1623 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+]
+[s S1626 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S1629 . 1 `S1614 1 . 1 0 `S1623 1 . 1 0 `S1626 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES1629  1 e 1 @4004 ]
+"10389
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S1039 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"12586
+[s S1041 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S1044 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S1047 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S1050 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S1053 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S1062 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S1068 . 1 `S1039 1 . 1 0 `S1041 1 . 1 0 `S1044 1 . 1 0 `S1047 1 . 1 0 `S1050 1 . 1 0 `S1053 1 . 1 0 `S1062 1 . 1 0 ]
+[v _RCONbits RCONbits `VES1068  1 e 1 @4048 ]
+[s S526 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"13521
+[s S529 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 INT3IP 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 INTEDG3 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S538 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT3P 1 0 :1:1 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S544 . 1 `S526 1 . 1 0 `S529 1 . 1 0 `S538 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES544  1 e 1 @4081 ]
+[s S416 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"13637
+[s S425 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S434 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S443 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S452 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S456 . 1 `S416 1 . 1 0 `S425 1 . 1 0 `S434 1 . 1 0 `S443 1 . 1 0 `S452 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES456  1 e 1 @4082 ]
+"4 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\hardware.c
+[v _SPI_Brg SPI_Brg `i  1 e 2 0 ]
+"70 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\main.c
+[v _txPayload txPayload `[103]uc  1 e 103 0 ]
+"71
+[v _payLoad payLoad `uc  1 e 1 0 ]
+"72
+[v _i i `i  1 e 2 0 ]
+"19 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\MRF24J40c.c
+[v _Tempbyte Tempbyte `uc  1 e 1 0 ]
+[s S21 . 34 `uc 1 TX_BUSY 1 0 :1:0 
+`uc 1 TX_PENDING_ACK 1 0 :1:1 
+`uc 1 TX_FAIL 1 0 :1:2 
+`uc 1 TX_RETRIES 1 0 :2:3 
+`uc 1 TX_CCAFAIL 1 0 :1:5 
+`uc 1 SLEEPING 1 0 :1:6 
+`VEuc 1 RXWriteBuffer 1 1 `uc 1 RXReadBuffer 1 2 `VEuc 1 RXPacketCount 1 3 `uc 1 IEEESeqNum 1 4 `uc 1 Channel 1 5 `us 1 MyShortAddress 2 6 `ul 1 MyLongAddress1 4 8 `ul 1 MyLongAddress2 4 12 `us 1 MyPANID 2 16 `ul 1 ResetCount 4 18 `ul 1 LastTXTriggerTick 4 22 `us 1 RXSecurityEnabled 2 26 `us 1 RadioExtraDiscard 2 28 `us 1 RXPacketTooBig 2 30 `us 1 RXBufferOverruns 2 32 ]
+"21
+[v _RadioStatus RadioStatus `VES21  1 e 34 0 ]
+"24
+[v _RXBuffer1 RXBuffer1 `VE[144]uc  1 e 144 @256 ]
+"26
+[v _RXBuffer2 RXBuffer2 `VE[144]uc  1 e 144 @768 ]
+[s S43 . 29 `uc 1 frameLength 1 0 `uc 1 frameType 1 1 :3:0 
+`uc 1 securityEnabled 1 1 :1:3 
+`uc 1 framePending 1 1 :1:4 
+`uc 1 ackRequest 1 1 :1:5 
+`uc 1 panIDcomp 1 1 :1:6 
+`uc 1 . 1 1 :1:7 
+`uc 1 . 1 2 :2:0 
+`uc 1 dstAddrMode 1 2 :2:2 
+`uc 1 frameVersion 1 2 :2:4 
+`uc 1 srcAddrMode 1 2 :2:6 
+`uc 1 frameNumber 1 3 `us 1 dstPANID 2 4 `ul 1 dstAddr1 4 6 `ul 1 dstAddr2 4 10 `us 1 srcPANID 2 14 `ul 1 srcAddr1 4 16 `ul 1 srcAddr2 4 20 `uc 1 payloadLength 1 24 `*.39uc 1 payload 2 25 `uc 1 lqi 1 27 `uc 1 rssi 1 28 ]
+"28
+[v _Tx Tx `S43  1 e 29 0 ]
+[v _Rx Rx `S43  1 e 29 0 ]
+"83 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"85
+[v main@lastFrameNumber lastFrameNumber `uc  1 s 1 lastFrameNumber ]
+"86
+[v main@ReadData ReadData `uc  1 s 1 ReadData ]
+"198
+} 0
+"407 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\MRF24J40c.c
+[v _RadioTXPacket RadioTXPacket `(v  1 e 0 0 ]
+{
+"408
+[v RadioTXPacket@i i `ui  1 a 2 21 ]
+"438
+} 0
+"356
+[v _RadioTXRaw RadioTXRaw `(v  1 e 0 0 ]
+{
+"357
+[v RadioTXRaw@wReg wReg `uc  1 a 1 15 ]
+"399
+} 0
+"167
+[v _toTXfifo toTXfifo `(uc  1 e 1 0 ]
+{
+[v toTXfifo@reg reg `us  1 p 2 9 ]
+[v toTXfifo@source source `*.39uc  1 p 2 11 ]
+[v toTXfifo@count count `uc  1 p 1 13 ]
+"172
+} 0
+"326
+[v _RadioSetSleep RadioSetSleep `(v  1 e 0 0 ]
+{
+[v RadioSetSleep@powerState powerState `uc  1 a 1 wreg ]
+[v RadioSetSleep@powerState powerState `uc  1 a 1 wreg ]
+[v RadioSetSleep@powerState powerState `uc  1 a 1 21 ]
+"341
+} 0
+"493
+[v _RadioRXPacket RadioRXPacket `(uc  1 e 1 0 ]
+{
+"496
+[v RadioRXPacket@readPoint readPoint `*.39uc  1 a 2 25 ]
+"495
+[v RadioRXPacket@i i `ui  1 a 2 23 ]
+"580
+} 0
+"32
+[v _readBytes readBytes `(*.39uc  1 e 2 0 ]
+{
+[v readBytes@dstPtr dstPtr `*.39uc  1 p 2 0 ]
+[v readBytes@srcPtr srcPtr `*.39uc  1 p 2 2 ]
+[v readBytes@count count `ui  1 p 2 4 ]
+"36
+} 0
+"582
+[v _RadioDiscardPacket RadioDiscardPacket `(v  1 e 0 0 ]
+{
+"589
+} 0
+"200 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\main.c
+[v _RadioInitP2P RadioInitP2P `(v  1 e 0 0 ]
+{
+"217
+} 0
+"258 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\MRF24J40c.c
+[v _RadioInit RadioInit `(E6350  1 e 1 0 ]
+{
+"260
+[v RadioInit@radio radio `E6350  1 a 1 21 ]
+"278
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"15
+[v memset@p p `*.39uc  1 a 2 6 ]
+"8
+[v memset@p1 p1 `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"178 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\MRF24J40c.c
+[v _initMRF24J40 initMRF24J40 `(uc  1 e 1 0 ]
+{
+"179
+[v initMRF24J40@i i `uc  1 a 1 20 ]
+"251
+} 0
+"137
+[v _lowRead lowRead `(uc  1 e 1 0 ]
+{
+[v lowRead@address address `uc  1 a 1 wreg ]
+"140
+[v lowRead@tmpRFIE tmpRFIE `uc  1 a 1 6 ]
+"138
+[v lowRead@toReturn toReturn `uc  1 a 1 5 ]
+"137
+[v lowRead@address address `uc  1 a 1 wreg ]
+"140
+[v lowRead@address address `uc  1 a 1 4 ]
+"149
+} 0
+"95
+[v _highRead highRead `(uc  1 e 1 0 ]
+{
+"96
+[v highRead@tmpRFIE tmpRFIE `uc  1 a 1 9 ]
+[v highRead@toReturn toReturn `uc  1 a 1 8 ]
+"95
+[v highRead@address address `us  1 p 2 4 ]
+"110
+} 0
+"68
+[v _SpiTake SpiTake `(uc  1 e 1 0 ]
+{
+[v SpiTake@v v `uc  1 a 1 wreg ]
+"71
+[v SpiTake@val val `uc  1 a 1 3 ]
+"68
+[v SpiTake@v v `uc  1 a 1 wreg ]
+"73
+[v SpiTake@v v `uc  1 a 1 2 ]
+"91
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2read.c
+[v _ReadSPI2 ReadSPI2 `(uc  1 e 1 0 ]
+{
+"14
+[v ReadSPI2@TempVar TempVar `uc  1 a 1 0 ]
+"21
+} 0
+"306 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\MRF24J40c.c
+[v _RadioSetChannel RadioSetChannel `(E6350  1 e 1 0 ]
+{
+[v RadioSetChannel@channel channel `uc  1 a 1 wreg ]
+[v RadioSetChannel@channel channel `uc  1 a 1 wreg ]
+[v RadioSetChannel@channel channel `uc  1 a 1 9 ]
+"322
+} 0
+"114
+[v _highWrite highWrite `(v  1 e 0 0 ]
+{
+"115
+[v highWrite@tmpRFIE tmpRFIE `uc  1 a 1 8 ]
+"114
+[v highWrite@address address `us  1 p 2 3 ]
+[v highWrite@value value `uc  1 p 1 5 ]
+"133
+} 0
+"283
+[v _RadioSetAddress RadioSetAddress `(v  1 e 0 0 ]
+{
+"284
+[v RadioSetAddress@i i `uc  1 a 1 18 ]
+"283
+[v RadioSetAddress@shortAddress shortAddress `us  1 p 2 6 ]
+[v RadioSetAddress@longAddress1 longAddress1 `ul  1 p 4 8 ]
+[v RadioSetAddress@longAddress2 longAddress2 `ul  1 p 4 12 ]
+[v RadioSetAddress@panID panID `us  1 p 2 16 ]
+"302
+} 0
+"153
+[v _lowWrite lowWrite `(v  1 e 0 0 ]
+{
+[v lowWrite@address address `uc  1 a 1 wreg ]
+"154
+[v lowWrite@tmpRFIE tmpRFIE `uc  1 a 1 5 ]
+"153
+[v lowWrite@address address `uc  1 a 1 wreg ]
+[v lowWrite@value value `uc  1 p 1 3 ]
+[v lowWrite@address address `uc  1 a 1 4 ]
+"163
+} 0
+"45
+[v _spiPut spiPut `(v  1 e 0 0 ]
+{
+[v spiPut@v v `uc  1 a 1 wreg ]
+[v spiPut@v v `uc  1 a 1 wreg ]
+"47
+[v spiPut@v v `uc  1 a 1 2 ]
+"52
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2writ.c
+[v _WriteSPI2 WriteSPI2 `(c  1 e 1 0 ]
+{
+[v WriteSPI2@data_out data_out `uc  1 a 1 wreg ]
+"15
+[v WriteSPI2@TempVar TempVar `uc  1 a 1 0 ]
+"13
+[v WriteSPI2@data_out data_out `uc  1 a 1 wreg ]
+"17
+[v WriteSPI2@data_out data_out `uc  1 a 1 1 ]
+"27
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 0 0 ]
+{
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 1 ]
+"13
+} 0
+"6 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\hardware.c
+[v _BoardInit BoardInit `(v  1 e 0 0 ]
+{
+"59
+} 0
+"14 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2open.c
+[v _OpenSPI2 OpenSPI2 `(v  1 e 0 0 ]
+{
+[v OpenSPI2@sync_mode sync_mode `uc  1 a 1 wreg ]
+[v OpenSPI2@sync_mode sync_mode `uc  1 a 1 wreg ]
+[v OpenSPI2@bus_mode bus_mode `uc  1 p 1 0 ]
+[v OpenSPI2@smp_phase smp_phase `uc  1 p 1 1 ]
+"16
+[v OpenSPI2@sync_mode sync_mode `uc  1 a 1 2 ]
+"74
+} 0
+"607 C:\Users\Sam\OneDrive\Embedded Systems\Embedded Systems 2014-2015\Radiolink\RfModule_Test_Final - XC8\RF_module_rx_XC8.X\MRF24J40c.c
+[v _ISR ISR `II(v  1 e 0 0 ]
+{
+"664
+[v ISR@TXSTAT TXSTAT `uc  1 a 1 28 ]
+"621
+[v ISR@i i `uc  1 a 1 30 ]
+[v ISR@bytes bytes `uc  1 a 1 29 ]
+[s S571 . 2 `uc 1 TXIF 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 RXIF 1 0 :1:3 
+`uc 1 SECIF 1 0 :1:4 
+`uc 1 . 1 1 :4:0 
+]
+"608
+[u S577 . 2 `uc 1 Val 1 0 `S571 1 bits 2 0 ]
+[v ISR@iflags iflags `S577  1 a 2 26 ]
+"673
+} 0
+"153
+[v i2_lowWrite lowWrite `(v  1 e 0 0 ]
+{
+[v i2lowWrite@address address `uc  1 a 1 wreg ]
+[v i2lowWrite@tmpRFIE lowWrite `uc  1 a 1 5 ]
+[v i2lowWrite@address address `uc  1 a 1 wreg ]
+[v i2lowWrite@value value `uc  1 p 1 3 ]
+[v i2lowWrite@address address `uc  1 a 1 4 ]
+"163
+} 0
+"137
+[v i2_lowRead lowRead `(uc  1 e 1 0 ]
+{
+[v i2lowRead@address address `uc  1 a 1 wreg ]
+[v i2lowRead@tmpRFIE lowRead `uc  1 a 1 6 ]
+[v i2lowRead@toReturn lowRead `uc  1 a 1 5 ]
+[v i2lowRead@address address `uc  1 a 1 wreg ]
+"140
+[v i2lowRead@address address `uc  1 a 1 4 ]
+"149
+} 0
+"95
+[v i2_highRead highRead `(uc  1 e 1 0 ]
+{
+[v i2highRead@tmpRFIE highRead `uc  1 a 1 9 ]
+[v i2highRead@toReturn highRead `uc  1 a 1 8 ]
+[v i2highRead@address address `us  1 p 2 4 ]
+"110
+} 0
+"45
+[v i2_spiPut spiPut `(v  1 e 0 0 ]
+{
+[v i2spiPut@v v `uc  1 a 1 wreg ]
+[v i2spiPut@v v `uc  1 a 1 wreg ]
+"47
+[v i2spiPut@v v `uc  1 a 1 2 ]
+"52
+} 0
+"68
+[v i2_SpiTake SpiTake `(uc  1 e 1 0 ]
+{
+[v i2SpiTake@v v `uc  1 a 1 wreg ]
+[v i2SpiTake@val SpiTake `uc  1 a 1 3 ]
+[v i2SpiTake@v v `uc  1 a 1 wreg ]
+"73
+[v i2SpiTake@v v `uc  1 a 1 2 ]
+"91
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2writ.c
+[v i2_WriteSPI2 WriteSPI2 `(c  1 e 1 0 ]
+{
+[v i2WriteSPI2@data_out data_out `uc  1 a 1 wreg ]
+[v i2WriteSPI2@TempVar WriteSPI2 `uc  1 a 1 0 ]
+[v i2WriteSPI2@data_out data_out `uc  1 a 1 wreg ]
+"17
+[v i2WriteSPI2@data_out data_out `uc  1 a 1 1 ]
+"27
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2read.c
+[v i2_ReadSPI2 ReadSPI2 `(uc  1 e 1 0 ]
+{
+[v i2ReadSPI2@TempVar ReadSPI2 `uc  1 a 1 0 ]
+"21
+} 0

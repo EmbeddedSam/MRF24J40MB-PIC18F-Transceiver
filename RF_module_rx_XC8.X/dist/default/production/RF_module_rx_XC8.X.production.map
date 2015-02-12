@@ -1,0 +1,1928 @@
+Microchip MPLAB XC8 Compiler V1.33 ()
+
+Linker command line:
+
+--edf=C:\Program Files (x86)\Microchip\xc8\v1.33\dat\en_msgs.txt -cs \
+  -h+dist/default/production\RF_module_rx_XC8.X.production.sym \
+  --cmf=dist/default/production\RF_module_rx_XC8.X.production.cmf -z \
+  -Q18F8722 -oC:\Users\Sam\AppData\Local\Temp\s4i0.6 \
+  -Mdist/default/production/RF_module_rx_XC8.X.production.map -E1 -ver=XC8 \
+  -ASTACK=0390h-09ffh -pstack=STACK -ACODE=00h-01FFFFh -ACONST=00h-01FFFFh \
+  -ASMALLCONST=01000h-010FFhx496 \
+  -AMEDIUMCONST=01000h-0FFFFh,011000h-01FFFFh -ACOMRAM=01h-05Fh \
+  -AABS1=00h-0F5Fh -ABIGRAM=01h-0F5Fh \
+  -ARAM=060h-0FFh,0100h-01FFhx14,0F00h-0F5Fh -ABANK0=060h-0FFh \
+  -ABANK1=0100h-01FFh -ABANK2=0200h-02FFh -ABANK3=0300h-03FFh \
+  -ABANK4=0400h-04FFh -ABANK5=0500h-05FFh -ABANK6=0600h-06FFh \
+  -ABANK7=0700h-07FFh -ABANK8=0800h-08FFh -ABANK9=0900h-09FFh \
+  -ABANK10=0A00h-0AFFh -ABANK11=0B00h-0BFFh -ABANK12=0C00h-0CFFh \
+  -ABANK13=0D00h-0DFFh -ABANK14=0E00h-0EFFh -ABANK15=0F00h-0F5Fh \
+  -ASFR=0F60h-0FFFh \
+  -preset_vec=00h,intcode=08h,intcodelo,powerup,init,end_init \
+  -pramtop=01000h -psmallconst=SMALLCONST -pmediumconst=MEDIUMCONST \
+  -pconst=CONST -AFARRAM=00h-00h -ACONFIG=0300000h-030000Dh -pconfig=CONFIG \
+  -AIDLOC=0200000h-0200007h -pidloc=IDLOC -AEEDATA=0F00000h-0F003FFh \
+  -peeprom_data=EEDATA \
+  -prdata=COMRAM,nvrram=COMRAM,nvbit=COMRAM,rbss=COMRAM,rbit=COMRAM \
+  -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
+  -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
+  -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE \
+  C:\Users\Sam\AppData\Local\Temp\s4i0.obj \
+  dist/default/production\RF_module_rx_XC8.X.production.obj 
+
+Object code version is 3.11
+
+Machine type is 18F8722
+
+Call graph: (short form)
+
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\Sam\AppData\Local\Temp\s4i0.obj
+                end_init                             18       18        4        4       0
+                reset_vec                             0        0        4        0       0
+                idloc                            200000   200000        8   200000       0
+                config                           300000   300000        E   300000       0
+dist/default/production\RF_module_rx_XC8.X.production.obj
+                intcode                               8        8       10        4       0
+                text32                             133A     133A       12        4       0
+                text31                             12E8     12E8       18        4       0
+                text30                             11E6     11E6       2E        4       0
+                text29                             1328     1328       12        4       0
+                text28                              FFE      FFE       52        4       0
+                text27                             1266     1266       26        4       0
+                text26                             123E     123E       28        4       0
+                intcode_body                        83E      83E      1BC        4       0
+                text24                              F42      F42       60        4       0
+                text23                              DFE      DFE       70        4       0
+                text22                             12CC     12CC       1C        4       0
+                text21                             12AC     12AC       20        4       0
+                text20                             1300     1300       16        4       0
+                text19                             11B4     11B4       32        4       0
+                text18                              B86      B86       D6        4       0
+                text17                              D8A      D8A       74        4       0
+                text16                              FA2      FA2       5C        4       0
+                text15                             1316     1316       12        4       0
+                text14                             114C     114C       36        4       0
+                text13                              ED8      ED8       6A        4       0
+                text12                             1182     1182       32        4       0
+                text11                              62C      62C      212        4       0
+                text10                             1114     1114       38        4       0
+                text9                               D00      D00       8A        4       0
+                text8                              1050     1050       46        4       0
+                text7                              128C     128C       20        4       0
+                text6                              1096     1096       44        4       0
+                text5                                1C       1C      3C8        4       0
+                text4                               E6E      E6E       6A        4       0
+                text3                              10DA     10DA       3A        4       0
+                text2                               3E4      3E4      248        4       0
+                text1                               C5C      C5C       A4        4       0
+                cstackCOMRAM                         26       26       1F        1       1
+                cstackBANK0                          9F       9F       1B       60       1
+                bssBANK1                            190      190       67      190       1
+                bssBANK0                             60       60       3F       60       1
+                bssCOMRAM                             1        1       25        1       1
+                cinit                              1214     1214       2A        4       0
+                text0                               9FA      9FA      18C        4       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                             18       18        4         0
+                intcode                               8        8       10         0
+                reset_vec                             0        0        4         0
+                text32                             133A     133A       12         0
+                text31                             12E8     12E8       18         0
+                text30                             11E6     11E6       2E         0
+                text29                             1328     1328       12         0
+                text28                              FFE      FFE       52         0
+                text27                             1266     1266       26         0
+                text26                             123E     123E       28         0
+                intcode_body                        83E      83E      1BC         0
+                text24                              F42      F42       60         0
+                text23                              DFE      DFE       70         0
+                text22                             12CC     12CC       1C         0
+                text21                             12AC     12AC       20         0
+                text20                             1300     1300       16         0
+                text19                             11B4     11B4       32         0
+                text18                              B86      B86       D6         0
+                text17                              D8A      D8A       74         0
+                text16                              FA2      FA2       5C         0
+                text15                             1316     1316       12         0
+                text14                             114C     114C       36         0
+                text13                              ED8      ED8       6A         0
+                text12                             1182     1182       32         0
+                text11                              62C      62C      212         0
+                text10                             1114     1114       38         0
+                text9                               D00      D00       8A         0
+                text8                              1050     1050       46         0
+                text7                              128C     128C       20         0
+                text6                              1096     1096       44         0
+                text5                                1C       1C      3C8         0
+                text4                               E6E      E6E       6A         0
+                text3                              10DA     10DA       3A         0
+                text2                               3E4      3E4      248         0
+                text1                               C5C      C5C       A4         0
+                cinit                              1214     1214       2A         0
+                text0                               9FA      9FA      18C         0
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+
+        CLASS   MEDIUMCONST    
+
+        CLASS   COMRAM         
+                cstackCOMRAM                         26       26       1F         1
+                bssCOMRAM                             1        1       25         1
+
+        CLASS   ABS1           
+                abs_s1                              100      100       90         1
+                abs_s1                              300      300       90         1
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   BANK0          
+                cstackBANK0                          9F       9F       1B         1
+                bssBANK0                             60       60       3F         1
+
+        CLASS   BANK1          
+                bssBANK1                            190      190       67         1
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+
+        CLASS   BANK4          
+
+        CLASS   BANK5          
+
+        CLASS   BANK6          
+
+        CLASS   BANK7          
+
+        CLASS   BANK8          
+
+        CLASS   BANK9          
+
+        CLASS   BANK10         
+
+        CLASS   BANK11         
+
+        CLASS   BANK12         
+
+        CLASS   BANK13         
+
+        CLASS   BANK14         
+
+        CLASS   BANK15         
+
+        CLASS   SFR            
+
+        CLASS   FARRAM         
+
+        CLASS   CONFIG         
+                config                           300000   300000        E         0
+
+        CLASS   IDLOC          
+                idloc                            200000   200000        8         0
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
+
+                reset_vec                      000000  000004  000004         0       0  CODE    
+                bssCOMRAM                      000001  000044  000045         1       1  COMRAM  
+                intcode                        000008  001344  00134C         4       0  CODE    
+                bssBANK0                       000060  00005A  0000BA        60       1  BANK0   
+                bssBANK1                       000190  000067  0001F7       190       1  BANK1   
+                idloc                          200000  000008  200008    200000       0  IDLOC   
+                config                         300000  00000E  30000E    300000       0  CONFIG  
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            0000BA-0000FF               46
+        BANK1            0001F7-0001FF                9
+        BANK10           000A00-000AFF              100
+        BANK11           000B00-000BFF              100
+        BANK12           000C00-000CFF              100
+        BANK13           000D00-000DFF              100
+        BANK14           000E00-000EFF              100
+        BANK15           000F00-000F5F               60
+        BANK2            000200-0002FF              100
+        BANK3            000390-0003FF               70
+        BANK4            000400-0004FF              100
+        BANK5            000500-0005FF              100
+        BANK6            000600-0006FF              100
+        BANK7            000700-0007FF              100
+        BANK8            000800-0008FF              100
+        BANK9            000900-0009FF              100
+        BIGRAM           000045-00005F               1B
+                         0000BA-0000FF               46
+                         0001F7-0002FF              109
+                         000390-000F5F              BD0
+        CODE             000004-000007                4
+                         00134C-01FFFF            1ECB4
+        COMRAM           000045-00005F               1B
+        CONST            000004-000007                4
+                         00134C-01FFFF            1ECB4
+        EEDATA           F00000-F003FF              400
+        MEDIUMCONST      00134C-00FFFF             ECB4
+                         011000-01FFFF             F000
+        RAM              0000BA-0000FF               46
+                         0001F7-0002FF                9
+                         000390-000F5F              100
+        SFR              000F60-000FFF               A0
+        SMALLCONST       00134C-01FFFF              100
+        STACK            000390-0009FF              670
+
+                                  Symbol Table
+
+?_readBytes                  cstackBANK0  00009F
+Delay10KTCYx@unit            cstackBANK0  0000A0
+ISR@TXSTAT                   cstackCOMRAM 000042
+ISR@bytes                    cstackCOMRAM 000043
+ISR@i                        cstackCOMRAM 000044
+ISR@iflags                   cstackCOMRAM 000040
+OpenSPI2@bus_mode            cstackBANK0  00009F
+OpenSPI2@smp_phase           cstackBANK0  0000A0
+OpenSPI2@sync_mode           cstackBANK0  0000A1
+RadioInit@radio              cstackBANK0  0000B4
+RadioRXPacket@i              cstackBANK0  0000B6
+RadioRXPacket@readPoint      cstackBANK0  0000B8
+RadioSetAddress@i            cstackBANK0  0000B1
+RadioSetAddress@longAddress1 cstackBANK0  0000A7
+RadioSetAddress@longAddress2 cstackBANK0  0000AB
+RadioSetAddress@panID        cstackBANK0  0000AF
+RadioSetAddress@shortAddress cstackBANK0  0000A5
+RadioSetChannel@channel      cstackBANK0  0000A8
+RadioSetSleep@powerState     cstackBANK0  0000B4
+RadioTXPacket@i              cstackBANK0  0000B4
+RadioTXRaw@wReg              cstackBANK0  0000AE
+ReadSPI2@TempVar             cstackBANK0  00009F
+SpiTake@v                    cstackBANK0  0000A1
+SpiTake@val                  cstackBANK0  0000A2
+WriteSPI2@TempVar            cstackBANK0  00009F
+WriteSPI2@data_out           cstackBANK0  0000A0
+_ADCON1                      (abs)        000FC1
+_BoardInit                   text23       000DFE
+_Delay10KTCYx                text22       0012CC
+_INTCON2bits                 (abs)        000FF1
+_INTCONbits                  (abs)        000FF2
+_ISR                         intcode      000008
+_LATA                        (abs)        000F89
+_LATB                        (abs)        000F8A
+_LATC                        (abs)        000F8B
+_LATD                        (abs)        000F8C
+_LATDbits                    (abs)        000F8C
+_LATE                        (abs)        000F8D
+_LATF                        (abs)        000F8E
+_LATG                        (abs)        000F8F
+_LATH                        (abs)        000F90
+_OpenSPI2                    text24       000F42
+_PIR3bits                    (abs)        000FA4
+_PORTBbits                   (abs)        000F81
+_PORTCbits                   (abs)        000F82
+_RCONbits                    (abs)        000FD0
+_RXBuffer1                   (abs)        000100
+_RXBuffer2                   (abs)        000300
+_RadioDiscardPacket          text7        00128C
+_RadioInit                   text9        000D00
+_RadioInitP2P                text8        001050
+_RadioRXPacket               text5        00001C
+_RadioSetAddress             text18       000B86
+_RadioSetChannel             text16       000FA2
+_RadioSetSleep               text4        000E6E
+_RadioStatus                 bssBANK0     000060
+_RadioTXPacket               text1        000C5C
+_RadioTXRaw                  text2        0003E4
+_ReadSPI2                    text15       001316
+_Rx                          bssBANK0     000082
+_SPI_Brg                     bssCOMRAM    000001
+_SSP2BUF                     (abs)        000F66
+_SSP2CON1                    (abs)        000F63
+_SSP2CON1bits                (abs)        000F63
+_SSP2STAT                    (abs)        000F64
+_SSP2STATbits                (abs)        000F64
+_SpiTake                     text14       00114C
+_TRISA                       (abs)        000F92
+_TRISB                       (abs)        000F93
+_TRISBbits                   (abs)        000F93
+_TRISC                       (abs)        000F94
+_TRISCbits                   (abs)        000F94
+_TRISD                       (abs)        000F95
+_TRISDbits                   (abs)        000F95
+_TRISE                       (abs)        000F96
+_TRISF                       (abs)        000F97
+_TRISG                       (abs)        000F98
+_TRISH                       (abs)        000F99
+_Tempbyte                    bssCOMRAM    000005
+_Tx                          bssCOMRAM    000008
+_WriteSPI2                   text21       0012AC
+__CFG_ADDRBW$ADDR20BIT       (abs)        000000
+__CFG_BBSIZ$BB2K             (abs)        000000
+__CFG_BOREN$OFF              (abs)        000000
+__CFG_BORV$3                 (abs)        000000
+__CFG_CCP2MX$PORTC           (abs)        000000
+__CFG_CP0$OFF                (abs)        000000
+__CFG_CP1$OFF                (abs)        000000
+__CFG_CP2$OFF                (abs)        000000
+__CFG_CP3$OFF                (abs)        000000
+__CFG_CP4$OFF                (abs)        000000
+__CFG_CP5$OFF                (abs)        000000
+__CFG_CP6$OFF                (abs)        000000
+__CFG_CP7$OFF                (abs)        000000
+__CFG_CPB$OFF                (abs)        000000
+__CFG_CPD$OFF                (abs)        000000
+__CFG_DATABW$DATA16BIT       (abs)        000000
+__CFG_EBTR0$OFF              (abs)        000000
+__CFG_EBTR1$OFF              (abs)        000000
+__CFG_EBTR2$OFF              (abs)        000000
+__CFG_EBTR3$OFF              (abs)        000000
+__CFG_EBTR4$OFF              (abs)        000000
+__CFG_EBTR5$OFF              (abs)        000000
+__CFG_EBTR6$OFF              (abs)        000000
+__CFG_EBTR7$OFF              (abs)        000000
+__CFG_EBTRB$OFF              (abs)        000000
+__CFG_ECCPMX$PORTE           (abs)        000000
+__CFG_FCMEN$OFF              (abs)        000000
+__CFG_IESO$OFF               (abs)        000000
+__CFG_LPT1OSC$OFF            (abs)        000000
+__CFG_LVP$OFF                (abs)        000000
+__CFG_MCLRE$ON               (abs)        000000
+__CFG_MODE$MC                (abs)        000000
+__CFG_OSC$HS                 (abs)        000000
+__CFG_PWRT$OFF               (abs)        000000
+__CFG_STVREN$OFF             (abs)        000000
+__CFG_WAIT$OFF               (abs)        000000
+__CFG_WDT$OFF                (abs)        000000
+__CFG_WDTPS$32768            (abs)        000000
+__CFG_WRT0$OFF               (abs)        000000
+__CFG_WRT1$OFF               (abs)        000000
+__CFG_WRT2$OFF               (abs)        000000
+__CFG_WRT3$OFF               (abs)        000000
+__CFG_WRT4$OFF               (abs)        000000
+__CFG_WRT5$OFF               (abs)        000000
+__CFG_WRT6$OFF               (abs)        000000
+__CFG_WRT7$OFF               (abs)        000000
+__CFG_WRTB$OFF               (abs)        000000
+__CFG_WRTC$OFF               (abs)        000000
+__CFG_WRTD$OFF               (abs)        000000
+__CFG_XINST$OFF              (abs)        000000
+__HRAM                       (abs)        000000
+__Habs1                      abs1         000000
+__Hbank0                     bank0        000000
+__Hbank1                     bank1        000000
+__Hbank10                    bank10       000000
+__Hbank11                    bank11       000000
+__Hbank12                    bank12       000000
+__Hbank13                    bank13       000000
+__Hbank14                    bank14       000000
+__Hbank15                    bank15       000000
+__Hbank2                     bank2        000000
+__Hbank3                     bank3        000000
+__Hbank4                     bank4        000000
+__Hbank5                     bank5        000000
+__Hbank6                     bank6        000000
+__Hbank7                     bank7        000000
+__Hbank8                     bank8        000000
+__Hbank9                     bank9        000000
+__Hbigbss                    bigbss       000000
+__Hbigdata                   bigdata      000000
+__Hbigram                    bigram       000000
+__Hbss                       bss          000000
+__HbssBANK0                  bssBANK0     000000
+__HbssBANK1                  bssBANK1     000000
+__HbssCOMRAM                 bssCOMRAM    000000
+__Hcinit                     cinit        000000
+__Hclrtext                   clrtext      000000
+__Hcomram                    comram       000000
+__Hconfig                    config       30000E
+__Hconst                     const        000000
+__HcstackBANK0               cstackBANK0  000000
+__HcstackCOMRAM              cstackCOMRAM 000000
+__Hdata                      data         000000
+__Heeprom_data               eeprom_data  000000
+__Hend_init                  end_init     00001C
+__Hfarbss                    farbss       000000
+__Hfardata                   fardata      000000
+__Hibigdata                  ibigdata     000000
+__Hidata                     idata        000000
+__Hidloc                     idloc        200008
+__Hifardata                  ifardata     000000
+__Hinit                      init         000018
+__Hintcode                   intcode      000018
+__Hintcode_body              intcode_body 000000
+__Hintcodelo                 intcodelo    000018
+__Hintentry                  intentry     000000
+__Hintret                    intret       000000
+__Hintsave_regs              intsave_regs 000000
+__Hirdata                    irdata       000000
+__Hmediumconst               mediumconst  000000
+__HnvFARRAM                  nvFARRAM     000000
+__Hnvbit                     nvbit        000000
+__Hnvrram                    nvrram       000000
+__Hparam                     rparam       000000
+__Hpowerup                   powerup      000018
+__Hram                       ram          000000
+__Hramtop                    ramtop       001000
+__Hrbit                      rbit         000000
+__Hrbss                      rbss         000000
+__Hrdata                     rdata        000000
+__Hreset_vec                 reset_vec    000004
+__Hrparam                    rparam       000000
+__Hsfr                       sfr          000000
+__Hsmallconst                smallconst   000000
+__Hspace_0                   (abs)        30000E
+__Hspace_1                   (abs)        0001F7
+__Hspace_2                   (abs)        000000
+__Hstack                     stack        000000
+__Hstruct                    struct       000000
+__Htemp                      temp         000000
+__Htext                      text         000000
+__Htext0                     text0        000000
+__Htext1                     text1        000000
+__Htext10                    text10       000000
+__Htext11                    text11       000000
+__Htext12                    text12       000000
+__Htext13                    text13       000000
+__Htext14                    text14       000000
+__Htext15                    text15       000000
+__Htext16                    text16       000000
+__Htext17                    text17       000000
+__Htext18                    text18       000000
+__Htext19                    text19       000000
+__Htext2                     text2        000000
+__Htext20                    text20       000000
+__Htext21                    text21       000000
+__Htext22                    text22       000000
+__Htext23                    text23       000000
+__Htext24                    text24       000000
+__Htext26                    text26       000000
+__Htext27                    text27       000000
+__Htext28                    text28       000000
+__Htext29                    text29       000000
+__Htext3                     text3        000000
+__Htext30                    text30       000000
+__Htext31                    text31       000000
+__Htext32                    text32       000000
+__Htext4                     text4        000000
+__Htext5                     text5        000000
+__Htext6                     text6        000000
+__Htext7                     text7        000000
+__Htext8                     text8        000000
+__Htext9                     text9        000000
+__LRAM                       (abs)        000001
+__Labs1                      abs1         000000
+__Lbank0                     bank0        000000
+__Lbank1                     bank1        000000
+__Lbank10                    bank10       000000
+__Lbank11                    bank11       000000
+__Lbank12                    bank12       000000
+__Lbank13                    bank13       000000
+__Lbank14                    bank14       000000
+__Lbank15                    bank15       000000
+__Lbank2                     bank2        000000
+__Lbank3                     bank3        000000
+__Lbank4                     bank4        000000
+__Lbank5                     bank5        000000
+__Lbank6                     bank6        000000
+__Lbank7                     bank7        000000
+__Lbank8                     bank8        000000
+__Lbank9                     bank9        000000
+__Lbigbss                    bigbss       000000
+__Lbigdata                   bigdata      000000
+__Lbigram                    bigram       000000
+__Lbss                       bss          000000
+__LbssBANK0                  bssBANK0     000000
+__LbssBANK1                  bssBANK1     000000
+__LbssCOMRAM                 bssCOMRAM    000000
+__Lcinit                     cinit        000000
+__Lclrtext                   clrtext      000000
+__Lcomram                    comram       000000
+__Lconfig                    config       300000
+__Lconst                     const        000000
+__LcstackBANK0               cstackBANK0  000000
+__LcstackCOMRAM              cstackCOMRAM 000000
+__Ldata                      data         000000
+__Leeprom_data               eeprom_data  000000
+__Lend_init                  end_init     000018
+__Lfarbss                    farbss       000000
+__Lfardata                   fardata      000000
+__Libigdata                  ibigdata     000000
+__Lidata                     idata        000000
+__Lidloc                     idloc        200000
+__Lifardata                  ifardata     000000
+__Linit                      init         000018
+__Lintcode                   intcode      000008
+__Lintcode_body              intcode_body 000000
+__Lintcodelo                 intcodelo    000018
+__Lintentry                  intentry     000000
+__Lintret                    intret       000000
+__Lintsave_regs              intsave_regs 000000
+__Lirdata                    irdata       000000
+__Lmediumconst               mediumconst  000000
+__LnvFARRAM                  nvFARRAM     000000
+__Lnvbit                     nvbit        000000
+__Lnvrram                    nvrram       000000
+__Lparam                     rparam       000000
+__Lpowerup                   powerup      000018
+__Lram                       ram          000000
+__Lramtop                    ramtop       001000
+__Lrbit                      rbit         000000
+__Lrbss                      rbss         000000
+__Lrdata                     rdata        000000
+__Lreset_vec                 reset_vec    000000
+__Lrparam                    rparam       000000
+__Lsfr                       sfr          000000
+__Lsmallconst                smallconst   000000
+__Lspace_0                   (abs)        000000
+__Lspace_1                   (abs)        000000
+__Lspace_2                   (abs)        000000
+__Lstack                     stack        000000
+__Lstruct                    struct       000000
+__Ltemp                      temp         000000
+__Ltext                      text         000000
+__Ltext0                     text0        000000
+__Ltext1                     text1        000000
+__Ltext10                    text10       000000
+__Ltext11                    text11       000000
+__Ltext12                    text12       000000
+__Ltext13                    text13       000000
+__Ltext14                    text14       000000
+__Ltext15                    text15       000000
+__Ltext16                    text16       000000
+__Ltext17                    text17       000000
+__Ltext18                    text18       000000
+__Ltext19                    text19       000000
+__Ltext2                     text2        000000
+__Ltext20                    text20       000000
+__Ltext21                    text21       000000
+__Ltext22                    text22       000000
+__Ltext23                    text23       000000
+__Ltext24                    text24       000000
+__Ltext26                    text26       000000
+__Ltext27                    text27       000000
+__Ltext28                    text28       000000
+__Ltext29                    text29       000000
+__Ltext3                     text3        000000
+__Ltext30                    text30       000000
+__Ltext31                    text31       000000
+__Ltext32                    text32       000000
+__Ltext4                     text4        000000
+__Ltext5                     text5        000000
+__Ltext6                     text6        000000
+__Ltext7                     text7        000000
+__Ltext8                     text8        000000
+__Ltext9                     text9        000000
+__S0                         (abs)        30000E
+__S1                         (abs)        0001F7
+__S2                         (abs)        000000
+___extmem_base               (abs)        020000
+___inthi_sp                  stack        000000
+___intlo_sp                  stack        000000
+___sp                        stack        000000
+__accesstop                  (abs)        000060
+__activetblptr               (abs)        000003
+__end_of_BoardInit           text23       000E6E
+__end_of_Delay10KTCYx        text22       0012E8
+__end_of_ISR                 intcode_body 0009FA
+__end_of_OpenSPI2            text24       000FA2
+__end_of_RadioDiscardPacket  text7        0012AC
+__end_of_RadioInit           text9        000D8A
+__end_of_RadioInitP2P        text8        001096
+__end_of_RadioRXPacket       text5        0003E4
+__end_of_RadioSetAddress     text18       000C5C
+__end_of_RadioSetChannel     text16       000FFE
+__end_of_RadioSetSleep       text4        000ED8
+__end_of_RadioTXPacket       text1        000D00
+__end_of_RadioTXRaw          text2        00062C
+__end_of_ReadSPI2            text15       001328
+__end_of_SpiTake             text14       001182
+__end_of_WriteSPI2           text21       0012CC
+__end_of__initialization     cinit        001238
+__end_of_highRead            text13       000F42
+__end_of_highWrite           text17       000DFE
+__end_of_initMRF24J40        text11       00083E
+__end_of_lowRead             text12       0011B4
+__end_of_lowWrite            text19       0011E6
+__end_of_main                text0        000B86
+__end_of_memset              text10       00114C
+__end_of_readBytes           text6        0010DA
+__end_of_spiPut              text20       001316
+__end_of_toTXfifo            text3        001114
+__end_ofi2_ReadSPI2          text32       00134C
+__end_ofi2_SpiTake           text30       001214
+__end_ofi2_WriteSPI2         text31       001300
+__end_ofi2_highRead          text28       001050
+__end_ofi2_lowRead           text27       00128C
+__end_ofi2_lowWrite          text26       001266
+__end_ofi2_spiPut            text29       00133A
+__initialization             cinit        001214
+__mediumconst                mediumconst  000000
+__pbssBANK0                  bssBANK0     000060
+__pbssBANK1                  bssBANK1     000190
+__pbssCOMRAM                 bssCOMRAM    000001
+__pcinit                     cinit        001214
+__pcstackBANK0               cstackBANK0  00009F
+__pcstackCOMRAM              cstackCOMRAM 000026
+__pintcode                   intcode      000008
+__pintcode_body              intcode_body 00083E
+__ptext0                     text0        0009FA
+__ptext1                     text1        000C5C
+__ptext10                    text10       001114
+__ptext11                    text11       00062C
+__ptext12                    text12       001182
+__ptext13                    text13       000ED8
+__ptext14                    text14       00114C
+__ptext15                    text15       001316
+__ptext16                    text16       000FA2
+__ptext17                    text17       000D8A
+__ptext18                    text18       000B86
+__ptext19                    text19       0011B4
+__ptext2                     text2        0003E4
+__ptext20                    text20       001300
+__ptext21                    text21       0012AC
+__ptext22                    text22       0012CC
+__ptext23                    text23       000DFE
+__ptext24                    text24       000F42
+__ptext26                    text26       00123E
+__ptext27                    text27       001266
+__ptext28                    text28       000FFE
+__ptext29                    text29       001328
+__ptext3                     text3        0010DA
+__ptext30                    text30       0011E6
+__ptext31                    text31       0012E8
+__ptext32                    text32       00133A
+__ptext4                     text4        000E6E
+__ptext5                     text5        00001C
+__ptext6                     text6        001096
+__ptext7                     text7        00128C
+__ptext8                     text8        001050
+__ptext9                     text9        000D00
+__ramtop                     ramtop       001000
+__size_of_BoardInit          (abs)        000000
+__size_of_Delay10KTCYx       (abs)        000000
+__size_of_ISR                (abs)        000000
+__size_of_OpenSPI2           (abs)        000000
+__size_of_RadioDiscardPacket (abs)        000000
+__size_of_RadioInit          (abs)        000000
+__size_of_RadioInitP2P       (abs)        000000
+__size_of_RadioRXPacket      (abs)        000000
+__size_of_RadioSetAddress    (abs)        000000
+__size_of_RadioSetChannel    (abs)        000000
+__size_of_RadioSetSleep      (abs)        000000
+__size_of_RadioTXPacket      (abs)        000000
+__size_of_RadioTXRaw         (abs)        000000
+__size_of_ReadSPI2           (abs)        000000
+__size_of_SpiTake            (abs)        000000
+__size_of_WriteSPI2          (abs)        000000
+__size_of_highRead           (abs)        000000
+__size_of_highWrite          (abs)        000000
+__size_of_initMRF24J40       (abs)        000000
+__size_of_lowRead            (abs)        000000
+__size_of_lowWrite           (abs)        000000
+__size_of_main               (abs)        000000
+__size_of_memset             (abs)        000000
+__size_of_readBytes          (abs)        000000
+__size_of_spiPut             (abs)        000000
+__size_of_toTXfifo           (abs)        000000
+__size_ofi2_ReadSPI2         (abs)        000000
+__size_ofi2_SpiTake          (abs)        000000
+__size_ofi2_WriteSPI2        (abs)        000000
+__size_ofi2_highRead         (abs)        000000
+__size_ofi2_lowRead          (abs)        000000
+__size_ofi2_lowWrite         (abs)        000000
+__size_ofi2_spiPut           (abs)        000000
+__smallconst                 smallconst   000000
+_highRead                    text13       000ED8
+_highWrite                   text17       000D8A
+_i                           bssCOMRAM    000003
+_initMRF24J40                text11       00062C
+_lowRead                     text12       001182
+_lowWrite                    text19       0011B4
+_main                        text0        0009FA
+_memset                      text10       001114
+_payLoad                     bssCOMRAM    000025
+_readBytes                   text6        001096
+_spiPut                      text20       001300
+_toTXfifo                    text3        0010DA
+_txPayload                   bssBANK1     000190
+end_of_initialization        cinit        001238
+highRead@address             cstackBANK0  0000A3
+highRead@tmpRFIE             cstackBANK0  0000A8
+highRead@toReturn            cstackBANK0  0000A7
+highWrite@address            cstackBANK0  0000A2
+highWrite@tmpRFIE            cstackBANK0  0000A7
+highWrite@value              cstackBANK0  0000A4
+i2ReadSPI2@TempVar           cstackCOMRAM 000026
+i2SpiTake@v                  cstackCOMRAM 000028
+i2SpiTake@val                cstackCOMRAM 000029
+i2WriteSPI2@TempVar          cstackCOMRAM 000026
+i2WriteSPI2@data_out         cstackCOMRAM 000027
+i2_ReadSPI2                  text32       00133A
+i2_SpiTake                   text30       0011E6
+i2_WriteSPI2                 text31       0012E8
+i2_highRead                  text28       000FFE
+i2_lowRead                   text27       001266
+i2_lowWrite                  text26       00123E
+i2_spiPut                    text29       001328
+i2highRead@address           cstackCOMRAM 00002A
+i2highRead@tmpRFIE           cstackCOMRAM 00002F
+i2highRead@toReturn          cstackCOMRAM 00002E
+i2lowRead@address            cstackCOMRAM 00002A
+i2lowRead@tmpRFIE            cstackCOMRAM 00002C
+i2lowRead@toReturn           cstackCOMRAM 00002B
+i2lowWrite@address           cstackCOMRAM 00002A
+i2lowWrite@tmpRFIE           cstackCOMRAM 00002B
+i2lowWrite@value             cstackCOMRAM 000029
+i2spiPut@v                   cstackCOMRAM 000028
+initMRF24J40@i               cstackBANK0  0000B3
+int_func                     intcode_body 00083E
+intlevel0                    text         000000
+intlevel1                    text         000000
+intlevel2                    text         000000
+intlevel3                    text         000000
+lowRead@address              cstackBANK0  0000A3
+lowRead@tmpRFIE              cstackBANK0  0000A5
+lowRead@toReturn             cstackBANK0  0000A4
+lowWrite@address             cstackBANK0  0000A3
+lowWrite@tmpRFIE             cstackBANK0  0000A4
+lowWrite@value               cstackBANK0  0000A2
+main@ReadData                bssCOMRAM    000006
+main@lastFrameNumber         bssCOMRAM    000007
+memset@c                     cstackBANK0  0000A1
+memset@n                     cstackBANK0  0000A3
+memset@p                     cstackBANK0  0000A5
+memset@p1                    cstackBANK0  00009F
+readBytes@count              cstackBANK0  0000A3
+readBytes@dstPtr             cstackBANK0  00009F
+readBytes@srcPtr             cstackBANK0  0000A1
+spiPut@v                     cstackBANK0  0000A1
+stackhi                      (abs)        0009FF
+stacklo                      (abs)        000390
+start                        init         000018
+start_initialization         cinit        001214
+toTXfifo@count               cstackBANK0  0000AC
+toTXfifo@reg                 cstackBANK0  0000A8
+toTXfifo@source              cstackBANK0  0000AA
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 83 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels required when called:   10
+ This function calls:
+		_BoardInit
+		_Delay10KTCYx
+		_RadioDiscardPacket
+		_RadioInit
+		_RadioInitP2P
+		_RadioRXPacket
+		_RadioSetSleep
+		_RadioTXPacket
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _RadioTXPacket *****************
+ Defined at:
+		line 407 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               2   21[BANK0 ] unsigned int 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    9
+ This function calls:
+		_RadioTXRaw
+		_initMRF24J40
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _RadioTXRaw *****************
+ Defined at:
+		line 356 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  wReg            1   15[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    8
+ This function calls:
+		_highWrite
+		_lowWrite
+		_toTXfifo
+ This function is called by:
+		_RadioTXPacket
+ This function uses a non-reentrant model
+
+
+ *************** function _toTXfifo *****************
+ Defined at:
+		line 167 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  reg             2    9[BANK0 ] unsigned short 
+  source          2   11[BANK0 ] PTR unsigned char 
+		 -> txPayload(103), payLoad(1), RXBuffer1(144), RXBuffer2(144), 
+		 -> Tx(29), 
+  count           1   13[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       5       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       5       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_highWrite
+ This function is called by:
+		_RadioTXRaw
+ This function uses a non-reentrant model
+
+
+ *************** function _RadioSetSleep *****************
+ Defined at:
+		line 326 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  powerState      1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  powerState      1   21[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    9
+ This function calls:
+		_highWrite
+		_initMRF24J40
+		_lowWrite
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _RadioRXPacket *****************
+ Defined at:
+		line 493 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  readPoint       2   25[BANK0 ] PTR unsigned char 
+		 -> RXBuffer1(144), RXBuffer2(144), 
+  i               2   23[BANK0 ] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    9
+ This function calls:
+		_RadioDiscardPacket
+		_initMRF24J40
+		_readBytes
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _readBytes *****************
+ Defined at:
+		line 32 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  dstPtr          2    0[BANK0 ] PTR unsigned char 
+		 -> Rx(29), 
+  srcPtr          2    2[BANK0 ] PTR unsigned char 
+		 -> RXBuffer1(144), RXBuffer2(144), 
+  count           2    4[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] PTR unsigned char 
+ Registers used:
+		wreg, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       6       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_RadioRXPacket
+ This function uses a non-reentrant model
+
+
+ *************** function _RadioDiscardPacket *****************
+ Defined at:
+		line 582 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_RadioRXPacket
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _RadioInitP2P *****************
+ Defined at:
+		line 200 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _RadioInit *****************
+ Defined at:
+		line 258 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  radio           1   21[BANK0 ] enum E6350
+ Return value:  Size  Location     Type
+                  1    wreg      enum E6350
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    9
+ This function calls:
+		_initMRF24J40
+		_memset
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _memset *****************
+ Defined at:
+		line 8 in file "C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\memset.c"
+ Parameters:    Size  Location     Type
+  p1              2    0[BANK0 ] PTR void 
+		 -> RadioStatus(34), 
+  c               2    2[BANK0 ] int 
+  n               2    4[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  p               2    6[BANK0 ] PTR unsigned char 
+		 -> RadioStatus(34), 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] PTR void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       6       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       8       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_RadioInit
+ This function uses a non-reentrant model
+
+
+ *************** function _initMRF24J40 *****************
+ Defined at:
+		line 178 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               1   20[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    8
+ This function calls:
+		_RadioSetAddress
+		_RadioSetChannel
+		_highRead
+		_highWrite
+		_lowRead
+		_lowWrite
+ This function is called by:
+		_RadioInit
+		_RadioSetSleep
+		_RadioTXPacket
+		_RadioRXPacket
+		_RadioWaitTXResult
+ This function uses a non-reentrant model
+
+
+ *************** function _lowRead *****************
+ Defined at:
+		line 137 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  address         1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  address         1    4[BANK0 ] unsigned char 
+  tmpRFIE         1    6[BANK0 ] unsigned char 
+  toReturn        1    5[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_SpiTake
+ This function is called by:
+		_initMRF24J40
+ This function uses a non-reentrant model
+
+
+ *************** function _highRead *****************
+ Defined at:
+		line 95 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  address         2    4[BANK0 ] unsigned short 
+ Auto vars:     Size  Location     Type
+  tmpRFIE         1    9[BANK0 ] unsigned char 
+  toReturn        1    8[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_SpiTake
+		_spiPut
+ This function is called by:
+		_initMRF24J40
+ This function uses a non-reentrant model
+
+
+ *************** function _SpiTake *****************
+ Defined at:
+		line 68 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  v               1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  v               1    2[BANK0 ] unsigned char 
+  val             1    3[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_ReadSPI2
+		_WriteSPI2
+ This function is called by:
+		_highRead
+		_lowRead
+ This function uses a non-reentrant model
+
+
+ *************** function _ReadSPI2 *****************
+ Defined at:
+		line 12 in file "C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2read.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  TempVar         1    0[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_SpiTake
+		_spiGet
+ This function uses a non-reentrant model
+
+
+ *************** function _RadioSetChannel *****************
+ Defined at:
+		line 306 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  channel         1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  channel         1    9[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      enum E6350
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_highWrite
+		_lowWrite
+ This function is called by:
+		_initMRF24J40
+ This function uses a non-reentrant model
+
+
+ *************** function _highWrite *****************
+ Defined at:
+		line 114 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  address         2    3[BANK0 ] unsigned short 
+  value           1    5[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  tmpRFIE         1    8[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_spiPut
+ This function is called by:
+		_toTXfifo
+		_initMRF24J40
+		_RadioSetChannel
+		_RadioSetSleep
+		_RadioTXRaw
+ This function uses a non-reentrant model
+
+
+ *************** function _RadioSetAddress *****************
+ Defined at:
+		line 283 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  shortAddress    2    6[BANK0 ] unsigned short 
+  longAddress1    4    8[BANK0 ] unsigned long 
+  longAddress2    4   12[BANK0 ] unsigned long 
+  panID           2   16[BANK0 ] unsigned short 
+ Auto vars:     Size  Location     Type
+  i               1   18[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0      12       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0      13       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       13 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_lowWrite
+ This function is called by:
+		_initMRF24J40
+ This function uses a non-reentrant model
+
+
+ *************** function _lowWrite *****************
+ Defined at:
+		line 153 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  address         1    wreg     unsigned char 
+  value           1    3[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  address         1    4[BANK0 ] unsigned char 
+  tmpRFIE         1    5[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_spiPut
+ This function is called by:
+		_initMRF24J40
+		_RadioSetAddress
+		_RadioSetChannel
+		_RadioSetSleep
+		_RadioTXRaw
+ This function uses a non-reentrant model
+
+
+ *************** function _spiPut *****************
+ Defined at:
+		line 45 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  v               1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  v               1    2[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_WriteSPI2
+ This function is called by:
+		_highRead
+		_highWrite
+		_lowWrite
+ This function uses a non-reentrant model
+
+
+ *************** function _WriteSPI2 *****************
+ Defined at:
+		line 13 in file "C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2writ.c"
+ Parameters:    Size  Location     Type
+  data_out        1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  data_out        1    1[BANK0 ] unsigned char 
+  TempVar         1    0[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      char 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_spiPut
+		_SpiTake
+		_spiGet
+ This function uses a non-reentrant model
+
+
+ *************** function _Delay10KTCYx *****************
+ Defined at:
+		line 8 in file "C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d10ktcyx.c"
+ Parameters:    Size  Location     Type
+  unit            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  unit            1    1[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _BoardInit *****************
+ Defined at:
+		line 6 in file "hardware.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_OpenSPI2
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _OpenSPI2 *****************
+ Defined at:
+		line 14 in file "C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2open.c"
+ Parameters:    Size  Location     Type
+  sync_mode       1    wreg     unsigned char 
+  bus_mode        1    0[BANK0 ] unsigned char 
+  smp_phase       1    1[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  sync_mode       1    2[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_BoardInit
+ This function uses a non-reentrant model
+
+
+ *************** function _ISR *****************
+ Defined at:
+		line 607 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  TXSTAT          1   28[COMRAM] unsigned char 
+  i               1   30[COMRAM] unsigned char 
+  bytes           1   29[COMRAM] unsigned char 
+  iflags          2   26[COMRAM] struct .
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         5       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:         16       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:        21       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       21 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		i2_highRead
+		i2_lowRead
+		i2_lowWrite
+ This function is called by:
+		Interrupt level 2
+ This function uses a non-reentrant model
+
+
+ *************** function i2_lowWrite *****************
+ Defined at:
+		line 153 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  address         1    wreg     unsigned char 
+  value           1    3[COMRAM] unsigned char 
+ Auto vars:     Size  Location     Type
+  address         1    4[COMRAM] unsigned char 
+  lowWrite        1    5[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		i2_spiPut
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function i2_lowRead *****************
+ Defined at:
+		line 137 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  address         1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  address         1    4[COMRAM] unsigned char 
+  lowRead         1    6[COMRAM] unsigned char 
+  lowRead         1    5[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		i2_SpiTake
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function i2_highRead *****************
+ Defined at:
+		line 95 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  address         2    4[COMRAM] unsigned short 
+ Auto vars:     Size  Location     Type
+  highRead        1    9[COMRAM] unsigned char 
+  highRead        1    8[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         6       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		i2_SpiTake
+		i2_spiPut
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function i2_spiPut *****************
+ Defined at:
+		line 45 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  v               1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  v               1    2[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		i2_WriteSPI2
+ This function is called by:
+		i2_highRead
+		i2_lowWrite
+ This function uses a non-reentrant model
+
+
+ *************** function i2_SpiTake *****************
+ Defined at:
+		line 68 in file "MRF24J40c.c"
+ Parameters:    Size  Location     Type
+  v               1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  v               1    2[COMRAM] unsigned char 
+  SpiTake         1    3[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		i2_ReadSPI2
+		i2_WriteSPI2
+ This function is called by:
+		i2_highRead
+		i2_lowRead
+ This function uses a non-reentrant model
+
+
+ *************** function i2_WriteSPI2 *****************
+ Defined at:
+		line 13 in file "C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2writ.c"
+ Parameters:    Size  Location     Type
+  data_out        1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  data_out        1    1[COMRAM] unsigned char 
+  WriteSPI2       1    0[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      char 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		i2_spiPut
+		i2_SpiTake
+ This function uses a non-reentrant model
+
+
+ *************** function i2_ReadSPI2 *****************
+ Defined at:
+		line 12 in file "C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2read.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  ReadSPI2        1    0[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		i2_SpiTake
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2open.c
+		_OpenSPI2      		CODE           	0F42	0000	96
+
+C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2open.c estimated size: 96
+
+C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2writ.c
+		_WriteSPI2     		CODE           	12AC	0000	32
+
+C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2writ.c estimated size: 32
+
+C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2read.c
+		_ReadSPI2      		CODE           	1316	0000	18
+
+C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\SPI\spi2read.c estimated size: 18
+
+C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d10ktcyx.c
+		_Delay10KTCYx  		CODE           	12CC	0000	28
+
+C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\d10ktcyx.c estimated size: 28
+
+MRF24J40c.c
+		_readBytes     		CODE           	1096	0000	68
+		_RadioTXPacket 		CODE           	0C5C	0000	164
+		_RadioSetChanne		CODE           	0FA2	0000	92
+		_SpiTake       		CODE           	114C	0000	54
+		_RadioSetAddres		CODE           	0B86	0000	214
+		_spiPut        		CODE           	1300	0000	22
+		_ISR           		CODE           	0008	0000	2546
+		_highWrite     		CODE           	0D8A	0000	116
+		_RadioInit     		CODE           	0D00	0000	138
+		_lowRead       		CODE           	1182	0000	50
+		_RadioRXPacket 		CODE           	001C	0000	968
+		_highRead      		CODE           	0ED8	0000	106
+		_RadioSetSleep 		CODE           	0E6E	0000	106
+		_initMRF24J40  		CODE           	062C	0000	530
+		_toTXfifo      		CODE           	10DA	0000	58
+		_lowWrite      		CODE           	11B4	0000	50
+		_RadioDiscardPa		CODE           	128C	0000	32
+		_RadioTXRaw    		CODE           	03E4	0000	584
+
+MRF24J40c.c estimated size: 5898
+
+shared
+		i2_lowRead     		CODE           	1266	0000	38
+		i2_ReadSPI2    		CODE           	133A	0000	18
+		i2_highRead    		CODE           	0FFE	0000	82
+		i2_spiPut      		CODE           	1328	0000	18
+		__initializatio		CODE           	1214	0000	36
+		i2_SpiTake     		CODE           	11E6	0000	46
+		i2_WriteSPI2   		CODE           	12E8	0000	24
+		i2_lowWrite    		CODE           	123E	0000	40
+
+shared estimated size: 302
+
+hardware.c
+		_BoardInit     		CODE           	0DFE	0000	112
+
+hardware.c estimated size: 112
+
+C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\memset.c
+		_memset        		CODE           	1114	0000	56
+
+C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\memset.c estimated size: 56
+
+main.c
+		_RadioInitP2P  		CODE           	1050	0000	70
+		_main          		CODE           	09FA	0000	396
+
+main.c estimated size: 466
+
