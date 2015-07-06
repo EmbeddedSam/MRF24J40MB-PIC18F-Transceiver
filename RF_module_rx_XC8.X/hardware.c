@@ -10,9 +10,6 @@ void BoardInit(void)
         //********CHANGE THIS BIT TO SUIT YOUR ROBOT JUST KEEP THE PORTD AND PORTB STUFF INTACT SO RADIO WORKS**************
 	LATA  = 0x00;
 	LATB  = 0x00;			       // clear all output bits
-	LATe  = 0x00;			       // clear all output bits
-	LATf  = 0x00;			       // clear all output bits
-	LATg  = 0x00;			       // clear all output bits
 	LATC  = 0x00;			       // clear all output bits
 	LATD  = 0x00;			       // clear all output bits
 	LATE  = 0x00;			       // clear all output bits
@@ -21,7 +18,7 @@ void BoardInit(void)
 
 	TRISA = 0x00;
 	TRISB = 0xFF;				// RB0 MUST BE SET AS INPUT FOR INTERRUPT
-//lalalalalal;
+
 	TRISC = 0xFF; 				// 
 	TRISD = 0x20;				// RD6-SCK2, RD5-SDI2, RD4-SDO2, RD2-RESET, RD1-WAKE, RD0-CS    
 	TRISE = 0xFF;				// NOT USED
