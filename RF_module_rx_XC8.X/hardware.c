@@ -10,6 +10,9 @@ void BoardInit(void)
         //********CHANGE THIS BIT TO SUIT YOUR ROBOT JUST KEEP THE PORTD AND PORTB STUFF INTACT SO RADIO WORKS**************
 	LATA  = 0x00;
 	LATB  = 0x00;			       // clear all output bits
+	LATe  = 0x00;			       // clear all output bits
+	LATf  = 0x00;			       // clear all output bits
+	LATg  = 0x00;			       // clear all output bits
 	LATC  = 0x00;			       // clear all output bits
 	LATD  = 0x00;			       // clear all output bits
 	LATE  = 0x00;			       // clear all output bits
