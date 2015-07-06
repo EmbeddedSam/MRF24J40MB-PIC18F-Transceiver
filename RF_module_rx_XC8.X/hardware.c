@@ -21,6 +21,7 @@ void BoardInit(void)
 
 	TRISA = 0x00;
 	TRISB = 0xFF;				// RB0 MUST BE SET AS INPUT FOR INTERRUPT
+//lalalalalal;
 	TRISC = 0xFF; 				// 
 	TRISD = 0x20;				// RD6-SCK2, RD5-SDI2, RD4-SDO2, RD2-RESET, RD1-WAKE, RD0-CS    
 	TRISE = 0xFF;				// NOT USED
